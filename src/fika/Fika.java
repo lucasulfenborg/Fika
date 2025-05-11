@@ -14,20 +14,10 @@ public class Fika {
 	    Worker nora = new Worker("Nora", resources);
 	    CoffeeMachine machine = new CoffeeMachine(resources);
 	
-		
 		machine.start();
 	    erik.start();
 	    simon.start();
 	    adrian.start();
 	    nora.start();
-	    /*
-	    try {
-	        Thread.sleep(simulationTime * 1000 / timeScale);
-	    } catch (InterruptedException e) {
-	        e.printStackTrace();
-	    }
-		*/
-	    //System.exit(0);
-
 	}
 }
